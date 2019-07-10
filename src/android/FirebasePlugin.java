@@ -292,7 +292,7 @@ public class FirebasePlugin extends CordovaPlugin {
 
     @Override
     public void onResume(boolean multitasking) {
-        FirebasePlugin.inBackground = false;
+        FirebasePlugin.inBackground = true;
     }
 
     @Override
